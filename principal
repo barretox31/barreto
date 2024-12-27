@@ -1,0 +1,156 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+3. JavaScript
+Um exemplo simples de JavaScript para manipular o envio do formulário de contato:
+
+javascript
+Copiar
+// scripts.js
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Obrigado por entrar em contato!');
+    // Aqui você pode adicionar funcionalidades para enviar o formulário via AJAX, por exemplo.
+});
+Próximos Passos
+Customização: Personalize o layout e o design para refletir a identidade da sua marca.
+Funcionalidades Avançadas: Considere adicionar um sistema de gerenciamento de conteúdo (CMS) como WordPress, ou integrar funcionalidades de e-commerce mais robustas usando plataformas como Shopify ou WooCommerce.
+Hospitalidade do Site: Escolha um serviço de hospedagem confiável e registre seu domínio.
+Essas são as bases para começar. Dependendo das suas habilidades técnicas e do tempo disponível, você pode expandir e aprimorar esse modelo inicial.
+
+
+Copiar
+
+Escutar
+
+Você
+quero que meu site tenha cores marron e dourada
+
+
+Copiar
+
+ONE
+Para incorporar as cores marrom e dourado ao design do seu site, você pode ajustar o arquivo CSS para refletir essas escolhas de paleta. A seguir, vou mostrar como você pode modificar o CSS para usar essas cores de maneira eficaz.
+
+Atualização do CSS com Cores Marrom e Dourada
+Aqui está o código CSS atualizado para aplicar um esquema de cores marrom e dourado:
+
+css
+Copiar
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* cor de fundo neutra */
+}
+
+header {
+    background-color: #4e342e; /* marrom escuro */
+    color: #d4af37; /* dourado */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #d4af37; /* dourado */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #8d6e63; /* marrom claro */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff; /* fundo branco para destaque */
+}
+
+footer {
+    background-color: #4e342e; /* marrom escuro */
+    color: #d4af37; /* dourado */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #d4af37; /* dourado */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b8860b; /* tom de dourado mais escuro */
+}
